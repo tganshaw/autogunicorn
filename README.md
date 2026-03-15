@@ -6,7 +6,7 @@ Automatically makes .service and nginx config files for a given app.
 
 ``` sudo ./autogunicorn.sh {user} {project_name} {path_to_wsgi_from_root} {path_to_venv_from_root} {box_ip} ```
 
-Because the script needs sudo permissions to make the files and do things like start the app or reload nginx, it must be ran as sudo.
+Because the script needs sudo permissions to make the files and do things like start the app or reload nginx, it must be ran via sudo.
 
 ## Explanations:
 
